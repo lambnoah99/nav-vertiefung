@@ -31,7 +31,6 @@ We're going to create a path `the-ultimate-hero`. This path should redirect the 
 And now if we type open the route `localhost:8082/the-ultimate-hero` we will land on the detail page of hero 12.
 
 ## Relative Paths
-### In the Template
 Relative paths allow you to define paths that are relative to the current URL segment. The following example shows a relative route to another component, `second-component`. `FirstComponent` and `SecondComponent` are at the same level in the tree, however, the link to `SecondComponent` is situated within the `FirstComponent`, meaning that the router has to go up a level and then into the second directory to find the `SecondComponent`. Rather than writing out the whole path to get to SecondComponent, you can use the `../` notation to go up a level.
 ```html
 <a routerLink="../second-component">Relative Route to second component</a>
